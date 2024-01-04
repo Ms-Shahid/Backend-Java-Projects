@@ -1,7 +1,10 @@
 package com.scaler.java;
 
+import com.scaler.java.greetings.Greetings;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Greetings greet = new Greetings();
+        System.out.println(greet.greeting());
     }
 }
