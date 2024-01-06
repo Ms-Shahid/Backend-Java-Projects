@@ -5,6 +5,7 @@
 
 - ./gradlew build -> to build the jar file
 - ./gradlew run -> runs all the files
+- ./gradlew clean -> cleans the target dir
 
 Gradle jar is generated in 'build\lib' dir
 
@@ -26,5 +27,12 @@ tasks.withType<Jar>{
 from(configurations.runtimeClasspath.get().map { if (it.isDirectory) it else zipTree(it) })
 }
 ```
+
+### Assignment-01
+Problem statement:
+Given 2 files, each of the files has bunch of numbers in them arranged 
+randomly.
+You are tasked to sorted them up & store the result in a separate file
+which is sorted.
 
 
