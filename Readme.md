@@ -30,9 +30,27 @@ from(configurations.runtimeClasspath.get().map { if (it.isDirectory) it else zip
 
 ### Assignment-01
 Problem statement:
-Given 2 files, each of the files has bunch of numbers in them arranged 
+Given 2 files, each of the files has a bunch of numbers in them arranged 
 randomly.
 You are tasked to sorted them up & store the result in a separate file
 which is sorted.
+
+
+### Running individual method as modules
+```
+ java -jar 'path-to-jar' [obj-name]
+ ex: java -jar .\build\libs\Java-Project-Scaler-1.0-SNAPSHOT.jar file
+```
+ - file is an object name.
+
+### Transfer of data
+- Serialization
+    - Converting Java Objects to JSON which can be processed by API calls
+- Deserialization
+  - And converting JSON response API calls back to Java Objects
+
+
+
+
 
 

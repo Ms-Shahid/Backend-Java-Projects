@@ -1,4 +1,4 @@
-package assignments.assign01;
+package com.scaler.java.assign01;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -62,7 +62,7 @@ public class FileOperations {
 
 
     public void writeIntoTheFile(List<Integer> data) {
-        String output = "src/main/java/assignments/assign01/";
+        String output = "src/main/java/assign01/";
         try {
             FileWriter writer = new FileWriter(output + "output.txt");
             for (int value : data) {
